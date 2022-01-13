@@ -6,7 +6,7 @@ function stockData(symbol){
                 resolve({
                     symbol, 
                     price: "$221.23",
-                    news: "Elon hints on new Tesla Vaccum Robot"
+                    news: "Elon hints on new Tesla Vacuum Robot"
                 })
             }else{
                 reject(new Error("Stock is not tracked"))
